@@ -86,6 +86,10 @@
     <string name="light">Light</string>
     <string name="dark">Dark</string>
 
+    <!-- update -->
+    <string name="latest">Currently it is the latest version!</string>
+    <string name="update">Update</string>
+
     <!-- permissions -->
     <string name="permissions">Permissions</string>
     <string name="owner">Owner:</string>
@@ -122,9 +126,11 @@
     <string name="overwrite_replace">Replace</string>
     <string name="overwrite_replace_all">Replace all</string>
 
-	<!-- file picker -->
-	<string name="picker_choose_one_file">Choose a file</string>
+    <!-- file picker -->
+    <string name="picker_choose_one_file">Choose a file</string>
 
     <!-- permissions -->
     <string name="message_denied">Permission \"%1$s\" has been denied</string>
+    <string name="actioncancelall">Deselect All</string>
+
 </resources>

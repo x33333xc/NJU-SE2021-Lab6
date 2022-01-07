@@ -39,6 +39,12 @@
             android:key="preference_theme"
             android:title="@string/theme" />
 
+        <ListPreference
+            android:defaultValue="0"
+            android:entries="@array/updateentries"
+            android:entryValues="@array/update_values"
+            android:key="preference_update"
+            android:title="@string/update" />
         <EditTextPreference
             android:dialogTitle="@string/defaultdir"
             android:key="defaultdir"

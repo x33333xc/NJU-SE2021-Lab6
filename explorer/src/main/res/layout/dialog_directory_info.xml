@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/content"
     android:layout_width="match_parent"
@@ -12,8 +13,9 @@
     <TableRow
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="5dp"
-        android:paddingTop="5dp">
+        android:background="@color/material_blue_500"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -24,8 +26,8 @@
             android:paddingRight="10dp"
             android:singleLine="true"
             android:text="@string/location"
-            android:textIsSelectable="false"
             android:textAppearance="?android:attr/textAppearance"
+            android:textIsSelectable="false"
             android:textStyle="bold" />
 
         <TextView
@@ -39,6 +41,18 @@
             android:text="@string/minus"
             android:textIsSelectable="false"
             tools:text="/sdcard" />
+
+        <ImageView
+            android:id="@+id/location2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:contentDescription="@null"
+            android:cropToPadding="true"
+            android:padding="5dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/actionpaste" />
     </TableRow>
 
     <TableRow
