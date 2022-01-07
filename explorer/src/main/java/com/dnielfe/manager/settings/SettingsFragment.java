@@ -36,6 +36,7 @@ public final class SettingsFragment extends PreferenceFragment {
         theme.setOnPreferenceChangeListener(new Preference.OnPreferenceChangeListener() {
             @Override
             public boolean onPreferenceChange(Preference preference, Object newValue) {
+                //TODO: Check the Software Version!
                 final int chosenTheme = Integer.parseInt((String) newValue);
                 if (chosenTheme != Settings.getDefaultTheme()) {
                     Settings.setDefaultTheme(chosenTheme);

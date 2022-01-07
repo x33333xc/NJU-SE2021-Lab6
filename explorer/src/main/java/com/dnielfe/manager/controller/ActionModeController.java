@@ -244,7 +244,13 @@ public final class ActionModeController {
 
                     mode.invalidate();
                     return true;
+                case R.id.actioncancelall:
+                    for (int i = 0; i < mListView.getCount(); i++) {
+                        mListView.setItemChecked(i, false);
+                    }
 
+                    mode.invalidate();
+                    return true;
                 default:
                     return false;
             }
